@@ -390,4 +390,19 @@ footer p {
         height: 40px;
     }
 
+    .caption::before,
+    #form h3::before {
+        display: none;
+    }
+
+    .caption::after,
+    #form h3::after {
+        display: none;
+    }
+
+    .sns_icon {
+        padding: 20px 20px;
+    }
+
+
 }
