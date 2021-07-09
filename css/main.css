@@ -371,3 +371,23 @@ footer p {
         font-size: 9rem;
     }
 }
+
+@media screen and (max-width: 380px) {
+    #form h3 {
+        font-size: 2rem;
+        margin: 0rem;
+    }
+
+    .about_caption,
+    .info_caption,
+    .proce_caption {
+        font-size: 2rem;
+        overflow-x: hidden;
+    }
+
+    .sns_icon a img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
