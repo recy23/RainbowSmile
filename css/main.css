@@ -81,8 +81,7 @@ section {
     transform: rotateY(180deg);
 }
 
-.caption::after,
-#form h3::after {
+.caption::after {
     content: "";
     position: absolute;
     top: 0;
@@ -346,7 +345,7 @@ footer {
 
 footer p {
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
     color: #370505;
 }
 
@@ -374,6 +373,18 @@ footer p {
 @media screen and (min-width: 768px) {
     .title_name {
         font-size: 9rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .caption::before,
+    #form h3::before {
+        display: none;
+    }
+    
+        .caption::after,
+    #form h3::after {
+        display: none;
     }
 }
 
@@ -408,6 +419,4 @@ footer p {
     .sns_icon {
         padding: 20px 20px;
     }
-
-
 }
