@@ -222,6 +222,7 @@ section {
 
 .info_contain p {
     margin: 3rem 0;
+    text-align: left;
 }
 
 .info_contain_cap span {
@@ -376,13 +377,14 @@ footer p {
     }
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
+
     .caption::before,
     #form h3::before {
         display: none;
     }
-    
-        .caption::after,
+
+    .caption::after,
     #form h3::after {
         display: none;
     }
